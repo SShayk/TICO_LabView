@@ -47,6 +47,10 @@
 		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 		</Item>
+		<Item Name="test double slider window control.vi" Type="VI" URL="../test double slider window control.vi"/>
+		<Item Name="example_temp_monitor_multiqueue.vi" Type="VI" URL="../example_temp_monitor_multiqueue.vi"/>
+		<Item Name="test_looped_handler.vi" Type="VI" URL="../test_looped_handler.vi"/>
+		<Item Name="UI control enums.ctl" Type="VI" URL="../UI control enums.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
