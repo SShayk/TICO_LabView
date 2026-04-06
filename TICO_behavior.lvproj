@@ -34,6 +34,21 @@
 		<Item Name="SubVIs" Type="Folder" URL="../../../../../Program Files/Thorlabs/Scientific Imaging/Scientific Camera Support/Scientific Camera Interfaces/LabVIEW/64_bit/SubVIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Acquisition" Type="Folder" URL="../Acquisition">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="controls_queue" Type="Folder" URL="../controls_queue">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Logging" Type="Folder" URL="../Logging">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Settings" Type="Folder" URL="../Settings">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="support" Type="Folder" URL="../support">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="galvo_recenter.vi" Type="VI" URL="../galvo_recenter.vi"/>
 		<Item Name="galvo_triangle_wave.vi" Type="VI" URL="../galvo_triangle_wave.vi"/>
 		<Item Name="init_DAQ.vi" Type="VI" URL="../init_DAQ.vi"/>
@@ -44,13 +59,16 @@
 		<Item Name="clear_laser.vi" Type="VI" URL="../clear_laser.vi"/>
 		<Item Name="init_lasers.vi" Type="VI" URL="../init_lasers.vi"/>
 		<Item Name="laser_LED_controls.vi" Type="VI" URL="../laser_LED_controls.vi"/>
-		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
-			<Property Name="NI.SortType" Type="Int">0</Property>
-		</Item>
 		<Item Name="test double slider window control.vi" Type="VI" URL="../test double slider window control.vi"/>
 		<Item Name="example_temp_monitor_multiqueue.vi" Type="VI" URL="../example_temp_monitor_multiqueue.vi"/>
 		<Item Name="test_looped_handler.vi" Type="VI" URL="../test_looped_handler.vi"/>
 		<Item Name="UI control enums.ctl" Type="VI" URL="../UI control enums.ctl"/>
+		<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
+		<Item Name="init_DAQ_cluster.vi" Type="VI" URL="../init_DAQ_cluster.vi"/>
+		<Item Name="DAQ_tasks_control.ctl" Type="VI" URL="../DAQ_tasks_control.ctl"/>
+		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
+			<Property Name="NI.SortType" Type="Int">0</Property>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

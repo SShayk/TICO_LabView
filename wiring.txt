@@ -1,0 +1,13 @@
+GalvoPMT (breakout board on table) (PXIe-6358)
+ctr0 (PFI 12) -> triggers Kinetix
+ao0/ao1 -> controls galvos
+ai1 <- Kinetix expose out
+ctr1 (PFI 13) (user 2) -> triggers Zelux
+PFI9 (user 1) <- BPod/external trigger 
+
+
+PZT (breakout board above table) (PXIe-6356)
+ctr0 (PFI 12) -> triggers shutter
+ai0 <- Zelux expose out
+PFI9 (user 1) <- BPod/external trigger 
+ao0/ao1 -> blue and blue laser/ orange laser
