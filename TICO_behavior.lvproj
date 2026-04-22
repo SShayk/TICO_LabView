@@ -67,6 +67,8 @@
 		<Item Name="init_DAQ_cluster.vi" Type="VI" URL="../init_DAQ_cluster.vi"/>
 		<Item Name="DAQ_tasks_control.ctl" Type="VI" URL="../DAQ_tasks_control.ctl"/>
 		<Item Name="extract TTL timing data.vi" Type="VI" URL="../extract TTL timing data.vi"/>
+		<Item Name="load_and_display_SLM.vi" Type="VI" URL="../load_and_display_SLM.vi"/>
+		<Item Name="png_file_to_image_array.vi" Type="VI" URL="../png_file_to_image_array.vi"/>
 		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 		</Item>
