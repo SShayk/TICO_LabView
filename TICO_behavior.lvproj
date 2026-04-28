@@ -69,6 +69,8 @@
 		<Item Name="extract TTL timing data.vi" Type="VI" URL="../extract TTL timing data.vi"/>
 		<Item Name="load_and_display_SLM.vi" Type="VI" URL="../load_and_display_SLM.vi"/>
 		<Item Name="png_file_to_image_array.vi" Type="VI" URL="../png_file_to_image_array.vi"/>
+		<Item Name="crop_image_to_SLM_size.vi" Type="VI" URL="../crop_image_to_SLM_size.vi"/>
+		<Item Name="crop_image_dimension_to_SLM_size.vi" Type="VI" URL="../crop_image_dimension_to_SLM_size.vi"/>
 		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 		</Item>
