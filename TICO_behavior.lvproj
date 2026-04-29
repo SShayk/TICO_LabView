@@ -71,6 +71,11 @@
 		<Item Name="png_file_to_image_array.vi" Type="VI" URL="../png_file_to_image_array.vi"/>
 		<Item Name="crop_image_to_SLM_size.vi" Type="VI" URL="../crop_image_to_SLM_size.vi"/>
 		<Item Name="crop_image_dimension_to_SLM_size.vi" Type="VI" URL="../crop_image_dimension_to_SLM_size.vi"/>
+		<Item Name="SLM parameters cluster.ctl" Type="VI" URL="../SLM parameters cluster.ctl"/>
+		<Item Name="create ROIs GUI.vi" Type="VI" URL="../create ROIs GUI.vi"/>
+		<Item Name="create solid ref image.vi" Type="VI" URL="../create solid ref image.vi"/>
+		<Item Name="resize camera space image to SLM space.vi" Type="VI" URL="../resize camera space image to SLM space.vi"/>
+		<Item Name="create SLM image from mask.vi" Type="VI" URL="../create SLM image from mask.vi"/>
 		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 		</Item>
