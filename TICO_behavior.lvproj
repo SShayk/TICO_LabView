@@ -59,11 +59,9 @@
 		<Item Name="clear_laser.vi" Type="VI" URL="../clear_laser.vi"/>
 		<Item Name="init_lasers.vi" Type="VI" URL="../init_lasers.vi"/>
 		<Item Name="laser_LED_controls.vi" Type="VI" URL="../laser_LED_controls.vi"/>
-		<Item Name="test double slider window control.vi" Type="VI" URL="../test double slider window control.vi"/>
 		<Item Name="example_temp_monitor_multiqueue.vi" Type="VI" URL="../example_temp_monitor_multiqueue.vi"/>
 		<Item Name="test_looped_handler.vi" Type="VI" URL="../test_looped_handler.vi"/>
 		<Item Name="UI control enums.ctl" Type="VI" URL="../UI control enums.ctl"/>
-		<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
 		<Item Name="init_DAQ_cluster.vi" Type="VI" URL="../init_DAQ_cluster.vi"/>
 		<Item Name="DAQ_tasks_control.ctl" Type="VI" URL="../DAQ_tasks_control.ctl"/>
 		<Item Name="extract TTL timing data.vi" Type="VI" URL="../extract TTL timing data.vi"/>
