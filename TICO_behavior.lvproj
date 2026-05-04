@@ -74,11 +74,11 @@
 		<Item Name="create solid ref image.vi" Type="VI" URL="../create solid ref image.vi"/>
 		<Item Name="resize camera space image to SLM space.vi" Type="VI" URL="../resize camera space image to SLM space.vi"/>
 		<Item Name="create SLM image from mask.vi" Type="VI" URL="../create SLM image from mask.vi"/>
+		<Item Name="set up centrally triggered task.vi" Type="VI" URL="../set up centrally triggered task.vi"/>
+		<Item Name="init_lasers separate tasks.vi" Type="VI" URL="../init_lasers separate tasks.vi"/>
 		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 		</Item>
-		<Item Name="set up centrally triggered task.vi" Type="VI" URL="../set up centrally triggered task.vi"/>
-		<Item Name="init_lasers separate tasks.vi" Type="VI" URL="../init_lasers separate tasks.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

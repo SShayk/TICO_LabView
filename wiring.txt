@@ -10,4 +10,4 @@ PZT (breakout board above table) (PXIe-6356)
 ctr0 (PFI 12) -> triggers shutter
 ai0 <- Zelux expose out
 PFI9 (user 1) <- BPod/external trigger 
-ao0/ao1 -> blue and blue laser/ orange laser
+ao0/ao1 -> blue LED and blue laser/ orange laser
