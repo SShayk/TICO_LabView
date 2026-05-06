@@ -76,6 +76,8 @@
 		<Item Name="create SLM image from mask.vi" Type="VI" URL="../create SLM image from mask.vi"/>
 		<Item Name="set up centrally triggered task.vi" Type="VI" URL="../set up centrally triggered task.vi"/>
 		<Item Name="init_lasers separate tasks.vi" Type="VI" URL="../init_lasers separate tasks.vi"/>
+		<Item Name="pulse 488 and steady 594.vi" Type="VI" URL="../pulse 488 and steady 594.vi"/>
+		<Item Name="create single value wavelength of desired length.vi" Type="VI" URL="../create single value wavelength of desired length.vi"/>
 		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 		</Item>
