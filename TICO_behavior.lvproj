@@ -59,7 +59,6 @@
 		<Item Name="clear_laser.vi" Type="VI" URL="../clear_laser.vi"/>
 		<Item Name="init_lasers.vi" Type="VI" URL="../init_lasers.vi"/>
 		<Item Name="laser_LED_controls.vi" Type="VI" URL="../laser_LED_controls.vi"/>
-		<Item Name="example_temp_monitor_multiqueue.vi" Type="VI" URL="../example_temp_monitor_multiqueue.vi"/>
 		<Item Name="test_looped_handler.vi" Type="VI" URL="../test_looped_handler.vi"/>
 		<Item Name="UI control enums.ctl" Type="VI" URL="../UI control enums.ctl"/>
 		<Item Name="init_DAQ_cluster.vi" Type="VI" URL="../init_DAQ_cluster.vi"/>
@@ -70,6 +69,7 @@
 		<Item Name="crop_image_to_SLM_size.vi" Type="VI" URL="../crop_image_to_SLM_size.vi"/>
 		<Item Name="crop_image_dimension_to_SLM_size.vi" Type="VI" URL="../crop_image_dimension_to_SLM_size.vi"/>
 		<Item Name="SLM parameters cluster.ctl" Type="VI" URL="../SLM parameters cluster.ctl"/>
+		<Item Name="example_temp_monitor_multiqueue.vi" Type="VI" URL="../example_temp_monitor_multiqueue.vi"/>
 		<Item Name="create ROIs GUI.vi" Type="VI" URL="../create ROIs GUI.vi"/>
 		<Item Name="create solid ref image.vi" Type="VI" URL="../create solid ref image.vi"/>
 		<Item Name="resize camera space image to SLM space.vi" Type="VI" URL="../resize camera space image to SLM space.vi"/>
@@ -78,6 +78,9 @@
 		<Item Name="init_lasers separate tasks.vi" Type="VI" URL="../init_lasers separate tasks.vi"/>
 		<Item Name="pulse 488 and steady 594.vi" Type="VI" URL="../pulse 488 and steady 594.vi"/>
 		<Item Name="create single value wavelength of desired length.vi" Type="VI" URL="../create single value wavelength of desired length.vi"/>
+		<Item Name="PVcam_consumer.vi" Type="VI" URL="../PVcam_consumer.vi"/>
+		<Item Name="camera parameters.ctl" Type="VI" URL="../camera parameters.ctl"/>
+		<Item Name="camera parameter message cluster.ctl" Type="VI" URL="../camera parameter message cluster.ctl"/>
 		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 		</Item>
