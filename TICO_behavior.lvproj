@@ -49,38 +49,51 @@
 		<Item Name="support" Type="Folder" URL="../support">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="galvo_recenter.vi" Type="VI" URL="../galvo_recenter.vi"/>
-		<Item Name="galvo_triangle_wave.vi" Type="VI" URL="../galvo_triangle_wave.vi"/>
-		<Item Name="init_DAQ.vi" Type="VI" URL="../init_DAQ.vi"/>
+		<Item Name="SLM utilities" Type="Folder">
+			<Item Name="ROI creation" Type="Folder">
+				<Item Name="crop_image_to_SLM_size.vi" Type="VI" URL="../crop_image_to_SLM_size.vi"/>
+				<Item Name="create solid ref image.vi" Type="VI" URL="../create solid ref image.vi"/>
+				<Item Name="resize camera space image to SLM space.vi" Type="VI" URL="../resize camera space image to SLM space.vi"/>
+				<Item Name="create ROIs GUI.vi" Type="VI" URL="../create ROIs GUI.vi"/>
+				<Item Name="create SLM image from mask.vi" Type="VI" URL="../create SLM image from mask.vi"/>
+				<Item Name="crop_image_dimension_to_SLM_size.vi" Type="VI" URL="../crop_image_dimension_to_SLM_size.vi"/>
+			</Item>
+			<Item Name="SLM parameters cluster.ctl" Type="VI" URL="../SLM parameters cluster.ctl"/>
+			<Item Name="load_and_display_SLM.vi" Type="VI" URL="../load_and_display_SLM.vi"/>
+			<Item Name="png_file_to_image_array.vi" Type="VI" URL="../png_file_to_image_array.vi"/>
+			<Item Name="connect_SLM.vi" Type="VI" URL="../connect_SLM.vi"/>
+			<Item Name="flip_array_vertical.vi" Type="VI" URL="../flip_array_vertical.vi"/>
+		</Item>
+		<Item Name="DAQ task utilities" Type="Folder">
+			<Item Name="light control" Type="Folder">
+				<Item Name="init_lasers separate tasks.vi" Type="VI" URL="../init_lasers separate tasks.vi"/>
+				<Item Name="pulse 488 and steady 594.vi" Type="VI" URL="../pulse 488 and steady 594.vi"/>
+				<Item Name="laser_LED_controls.vi" Type="VI" URL="../laser_LED_controls.vi"/>
+				<Item Name="clear_laser.vi" Type="VI" URL="../clear_laser.vi"/>
+				<Item Name="init_lasers.vi" Type="VI" URL="../init_lasers.vi"/>
+				<Item Name="init_laser.vi" Type="VI" URL="../init_laser.vi"/>
+			</Item>
+			<Item Name="init_DAQ.vi" Type="VI" URL="../init_DAQ.vi"/>
+			<Item Name="galvo_triangle_wave.vi" Type="VI" URL="../galvo_triangle_wave.vi"/>
+			<Item Name="galvo_recenter.vi" Type="VI" URL="../galvo_recenter.vi"/>
+			<Item Name="make step function for duty cycle.vi" Type="VI" URL="../make step function for duty cycle.vi"/>
+			<Item Name="channel parameters cluster.ctl" Type="VI" URL="../channel parameters cluster.ctl"/>
+			<Item Name="set up centrally triggered task.vi" Type="VI" URL="../set up centrally triggered task.vi"/>
+			<Item Name="DAQ_tasks_control.ctl" Type="VI" URL="../DAQ_tasks_control.ctl"/>
+			<Item Name="init_DAQ_cluster.vi" Type="VI" URL="../init_DAQ_cluster.vi"/>
+		</Item>
+		<Item Name="camera utilities" Type="Folder">
+			<Item Name="PV_setup.vi" Type="VI" URL="/D/KinetixTest/SS_test/PV_setup.vi"/>
+			<Item Name="PVcam_consumer.vi" Type="VI" URL="../PVcam_consumer.vi"/>
+			<Item Name="camera parameter message cluster.ctl" Type="VI" URL="../camera parameter message cluster.ctl"/>
+			<Item Name="camera parameters.ctl" Type="VI" URL="../camera parameters.ctl"/>
+		</Item>
 		<Item Name="mainGUI.vi" Type="VI" URL="../mainGUI.vi"/>
-		<Item Name="PV_setup.vi" Type="VI" URL="/D/KinetixTest/SS_test/PV_setup.vi"/>
-		<Item Name="make step function for duty cycle.vi" Type="VI" URL="../make step function for duty cycle.vi"/>
-		<Item Name="channel parameters cluster.ctl" Type="VI" URL="../channel parameters cluster.ctl"/>
-		<Item Name="clear_laser.vi" Type="VI" URL="../clear_laser.vi"/>
-		<Item Name="init_lasers.vi" Type="VI" URL="../init_lasers.vi"/>
-		<Item Name="laser_LED_controls.vi" Type="VI" URL="../laser_LED_controls.vi"/>
 		<Item Name="test_looped_handler.vi" Type="VI" URL="../test_looped_handler.vi"/>
 		<Item Name="UI control enums.ctl" Type="VI" URL="../UI control enums.ctl"/>
-		<Item Name="init_DAQ_cluster.vi" Type="VI" URL="../init_DAQ_cluster.vi"/>
-		<Item Name="DAQ_tasks_control.ctl" Type="VI" URL="../DAQ_tasks_control.ctl"/>
 		<Item Name="extract TTL timing data.vi" Type="VI" URL="../extract TTL timing data.vi"/>
-		<Item Name="load_and_display_SLM.vi" Type="VI" URL="../load_and_display_SLM.vi"/>
-		<Item Name="png_file_to_image_array.vi" Type="VI" URL="../png_file_to_image_array.vi"/>
-		<Item Name="crop_image_to_SLM_size.vi" Type="VI" URL="../crop_image_to_SLM_size.vi"/>
-		<Item Name="crop_image_dimension_to_SLM_size.vi" Type="VI" URL="../crop_image_dimension_to_SLM_size.vi"/>
-		<Item Name="SLM parameters cluster.ctl" Type="VI" URL="../SLM parameters cluster.ctl"/>
 		<Item Name="example_temp_monitor_multiqueue.vi" Type="VI" URL="../example_temp_monitor_multiqueue.vi"/>
-		<Item Name="create ROIs GUI.vi" Type="VI" URL="../create ROIs GUI.vi"/>
-		<Item Name="create solid ref image.vi" Type="VI" URL="../create solid ref image.vi"/>
-		<Item Name="resize camera space image to SLM space.vi" Type="VI" URL="../resize camera space image to SLM space.vi"/>
-		<Item Name="create SLM image from mask.vi" Type="VI" URL="../create SLM image from mask.vi"/>
-		<Item Name="set up centrally triggered task.vi" Type="VI" URL="../set up centrally triggered task.vi"/>
-		<Item Name="init_lasers separate tasks.vi" Type="VI" URL="../init_lasers separate tasks.vi"/>
-		<Item Name="pulse 488 and steady 594.vi" Type="VI" URL="../pulse 488 and steady 594.vi"/>
 		<Item Name="create single value wavelength of desired length.vi" Type="VI" URL="../create single value wavelength of desired length.vi"/>
-		<Item Name="PVcam_consumer.vi" Type="VI" URL="../PVcam_consumer.vi"/>
-		<Item Name="camera parameters.ctl" Type="VI" URL="../camera parameters.ctl"/>
-		<Item Name="camera parameter message cluster.ctl" Type="VI" URL="../camera parameter message cluster.ctl"/>
 		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 		</Item>
