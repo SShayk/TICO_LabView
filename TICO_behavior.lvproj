@@ -95,6 +95,7 @@
 		<Item Name="example_temp_monitor_multiqueue.vi" Type="VI" URL="../example_temp_monitor_multiqueue.vi"/>
 		<Item Name="create single value wavelength of desired length.vi" Type="VI" URL="../create single value wavelength of desired length.vi"/>
 		<Item Name="create single value wavelength of desired length (length value in).vi" Type="VI" URL="../create single value wavelength of desired length (length value in).vi"/>
+		<Item Name="set_CLUT.vi" Type="VI" URL="../set_CLUT.vi"/>
 		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 		</Item>
