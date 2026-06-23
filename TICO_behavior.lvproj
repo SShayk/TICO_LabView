@@ -63,6 +63,7 @@
 			<Item Name="png_file_to_image_array.vi" Type="VI" URL="../png_file_to_image_array.vi"/>
 			<Item Name="connect_SLM.vi" Type="VI" URL="../connect_SLM.vi"/>
 			<Item Name="flip_array_vertical.vi" Type="VI" URL="../flip_array_vertical.vi"/>
+			<Item Name="set_CLUT.vi" Type="VI" URL="../set_CLUT.vi"/>
 		</Item>
 		<Item Name="DAQ task utilities" Type="Folder">
 			<Item Name="light control" Type="Folder">
@@ -72,6 +73,8 @@
 				<Item Name="clear_laser.vi" Type="VI" URL="../clear_laser.vi"/>
 				<Item Name="init_lasers.vi" Type="VI" URL="../init_lasers.vi"/>
 				<Item Name="init_laser.vi" Type="VI" URL="../init_laser.vi"/>
+				<Item Name="create single value wavelength of desired length.vi" Type="VI" URL="../create single value wavelength of desired length.vi"/>
+				<Item Name="create single value wavelength of desired length (length value in).vi" Type="VI" URL="../create single value wavelength of desired length (length value in).vi"/>
 			</Item>
 			<Item Name="init_DAQ.vi" Type="VI" URL="../init_DAQ.vi"/>
 			<Item Name="galvo_triangle_wave.vi" Type="VI" URL="../galvo_triangle_wave.vi"/>
@@ -93,9 +96,6 @@
 		<Item Name="UI control enums.ctl" Type="VI" URL="../UI control enums.ctl"/>
 		<Item Name="extract TTL timing data.vi" Type="VI" URL="../extract TTL timing data.vi"/>
 		<Item Name="example_temp_monitor_multiqueue.vi" Type="VI" URL="../example_temp_monitor_multiqueue.vi"/>
-		<Item Name="create single value wavelength of desired length.vi" Type="VI" URL="../create single value wavelength of desired length.vi"/>
-		<Item Name="create single value wavelength of desired length (length value in).vi" Type="VI" URL="../create single value wavelength of desired length (length value in).vi"/>
-		<Item Name="set_CLUT.vi" Type="VI" URL="../set_CLUT.vi"/>
 		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 		</Item>
