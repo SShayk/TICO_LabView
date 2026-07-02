@@ -91,11 +91,19 @@
 			<Item Name="camera parameter message cluster.ctl" Type="VI" URL="../camera parameter message cluster.ctl"/>
 			<Item Name="camera parameters.ctl" Type="VI" URL="../camera parameters.ctl"/>
 		</Item>
+		<Item Name="general utilities" Type="Folder">
+			<Item Name="var to string (int).vi" Type="VI" URL="../var to string (int).vi"/>
+			<Item Name="var to string (string).vi" Type="VI" URL="../var to string (string).vi"/>
+			<Item Name="var to string.vi" Type="VI" URL="../var to string.vi"/>
+			<Item Name="var to string (ring).vi" Type="VI" URL="../var to string (ring).vi"/>
+			<Item Name="var to string (path).vi" Type="VI" URL="../var to string (path).vi"/>
+			<Item Name="UI control enums.ctl" Type="VI" URL="../UI control enums.ctl"/>
+			<Item Name="extract TTL timing data.vi" Type="VI" URL="../extract TTL timing data.vi"/>
+		</Item>
 		<Item Name="mainGUI.vi" Type="VI" URL="../mainGUI.vi"/>
 		<Item Name="test_looped_handler.vi" Type="VI" URL="../test_looped_handler.vi"/>
-		<Item Name="UI control enums.ctl" Type="VI" URL="../UI control enums.ctl"/>
-		<Item Name="extract TTL timing data.vi" Type="VI" URL="../extract TTL timing data.vi"/>
 		<Item Name="example_temp_monitor_multiqueue.vi" Type="VI" URL="../example_temp_monitor_multiqueue.vi"/>
+		<Item Name="start TDMS file.vi" Type="VI" URL="../start TDMS file.vi"/>
 		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 		</Item>
