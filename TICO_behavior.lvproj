@@ -104,6 +104,8 @@
 		<Item Name="test_looped_handler.vi" Type="VI" URL="../test_looped_handler.vi"/>
 		<Item Name="example_temp_monitor_multiqueue.vi" Type="VI" URL="../example_temp_monitor_multiqueue.vi"/>
 		<Item Name="start TDMS file.vi" Type="VI" URL="../start TDMS file.vi"/>
+		<Item Name="log queue utility.vi" Type="VI" URL="../log queue utility.vi"/>
+		<Item Name="Untitled 2.vi" Type="VI" URL="../Untitled 2.vi"/>
 		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 		</Item>
