@@ -3,12 +3,12 @@ ctr0 (PFI 12) -> triggers Kinetix
 ao0/ao1 -> controls galvos
 
 ctr1 (PFI 13) (user 2) -> triggers Zelux
-PFI9 (user 1) <- BPod/external trigger 
+PFI9 (user 1) <- BPod/external trigger (also connected to PF19 on PZT board)
 
 
 PZT (breakout board above table) (PXIe-6356)
 ai0 <- Kinetix expose out
 ai2 <- Zelux expose out
 ctr0 (PFI 12) -> triggers shutter
-PFI9 (user 1) <- BPod/external trigger 
+PFI9 (user 1) <- BPod/external trigger (also connected to PF19 on GalvoPMT board)
 ao0/ao1 -> blue LED and blue laser/ orange laser
